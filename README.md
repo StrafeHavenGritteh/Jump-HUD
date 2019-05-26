@@ -1,5 +1,4 @@
-# jhud
-## Center of screen SSJ
+# JHUD
 
 Modified by Gritteh for 128 Tick
 ## Credits
