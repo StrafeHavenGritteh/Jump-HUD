@@ -245,53 +245,53 @@ void JHUD_DrawStats(int client, int target)
 		r = 0, g = 255, b = 0;
 	else if (g_iJump[target] == 1 && RoundToFloor(GetVectorLength(velocity)) > 286)
 		r = 0, g = 191, b = 255;
-	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) < 365)
+	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) < 360)
 		r = 255, g = 0, b = 0;
-	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) >= 365 && RoundToFloor(GetVectorLength(velocity)) <= 369)
+	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) >= 360 && RoundToFloor(GetVectorLength(velocity)) <= 380)
 		r = 255, g = 165, b = 0;
-	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) > 369 && RoundToFloor(GetVectorLength(velocity)) <= 374)
+	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) > 380 && RoundToFloor(GetVectorLength(velocity)) <= 390)
 		r = 0, g = 255, b = 0;
-	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) > 374)
+	else if (g_iJump[target] == 2 && RoundToFloor(GetVectorLength(velocity)) > 390)
 		r = 0, g = 191, b = 255;
-	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) < 438)
+	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) < 440)
 		r = 255, g = 0, b = 0;
-	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) >= 438 && RoundToFloor(GetVectorLength(velocity)) <= 441)
+	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) >= 440 && RoundToFloor(GetVectorLength(velocity)) <= 460)
 		r = 255, g = 165, b = 0;
-	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) > 441 && RoundToFloor(GetVectorLength(velocity)) <= 449)
+	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) > 460 && RoundToFloor(GetVectorLength(velocity)) <= 480)
 		r = 0, g = 255, b = 0;
-	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) > 449)
+	else if (g_iJump[target] == 3 && RoundToFloor(GetVectorLength(velocity)) > 480)
 		r = 0, g = 191, b = 255;
-	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) < 500)
+	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) < 520)
 		r = 255, g = 0, b = 0;
-	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) >= 500 && RoundToFloor(GetVectorLength(velocity)) <= 504)
+	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) >= 520 && RoundToFloor(GetVectorLength(velocity)) <= 530)
 		r = 255, g = 165, b = 0;
-	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) > 504 && RoundToFloor(GetVectorLength(velocity)) <= 514)
+	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) > 530 && RoundToFloor(GetVectorLength(velocity)) <= 560)
 		r = 0, g = 255, b = 0;
-	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) > 514)
+	else if (g_iJump[target] == 4 && RoundToFloor(GetVectorLength(velocity)) > 560)
 		r = 0, g = 191, b = 255;
-	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) < 555)
+	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) < 580)
 		r = 255, g = 0, b = 0;
-	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) >= 555 && RoundToFloor(GetVectorLength(velocity)) <= 559)
+	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) >= 580 && RoundToFloor(GetVectorLength(velocity)) <= 600)
 		r = 255, g = 165, b = 0;
-	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) > 559 && RoundToFloor(GetVectorLength(velocity)) <= 569)
+	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) > 600 && RoundToFloor(GetVectorLength(velocity)) <= 620)
 		r = 0, g = 255, b = 0;
-	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) > 569)
+	else if (g_iJump[target] == 5 && RoundToFloor(GetVectorLength(velocity)) > 620)
 		r = 0, g = 191, b = 255;
-	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) < 605)
+	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) < 600)
 		r = 255, g = 0, b = 0;
-	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) >= 605 && RoundToFloor(GetVectorLength(velocity)) <= 609)
+	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) >= 600 && RoundToFloor(GetVectorLength(velocity)) <= 660)
 		r = 255, g = 165, b = 0;
-	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) > 609 && RoundToFloor(GetVectorLength(velocity)) <= 619)
+	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) > 660 && RoundToFloor(GetVectorLength(velocity)) <= 680)
 		r = 0, g = 255, b = 0;
-	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) > 619)
+	else if (g_iJump[target] == 6 && RoundToFloor(GetVectorLength(velocity)) > 680)
 		r = 0, g = 191, b = 255;
-	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) < 965)
+	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) < 1060)
 		r = 255, g = 0, b = 0;
-	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) >= 965 && RoundToFloor(GetVectorLength(velocity)) <= 979)
+	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) >= 1060 && RoundToFloor(GetVectorLength(velocity)) <= 1080)
 		r = 255, g = 165, b = 0;
-	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) > 979 && RoundToFloor(GetVectorLength(velocity)) <= 999)
+	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) > 1100 && RoundToFloor(GetVectorLength(velocity)) <= 1120)
 		r = 0, g = 255, b = 0;
-	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) > 999)
+	else if (g_iJump[target] == 16 && RoundToFloor(GetVectorLength(velocity)) > 1120)
 		r = 0, g = 191, b = 255;
 	else if (g_iJump[target] > 6 && coeffsum < 60)
 		r = 255, g = 0, b = 0;
