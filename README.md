@@ -1,6 +1,6 @@
 # JHUD
 
-Modified by Gritteh for 128 Tick
+Modified by Gritteh for 128 Tick and 85.3 Tick
 
 JHUD is a center of the screen jump stats [SSJ]
 
